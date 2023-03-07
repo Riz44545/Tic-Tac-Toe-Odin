@@ -1,0 +1,34 @@
+.container {
+    border: 2px solid white;
+    width: 45%;
+    height: 80vh;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.box {
+    border: 2px solid white;
+    flex: 1 30%;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.clicked {
+    pointer-events: none;
+    color: white;
+}
